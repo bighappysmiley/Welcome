@@ -1,5 +1,5 @@
 <div align="center">
-  <<img src="https://raw.githubusercontent.com/bighappysmiley/Read-This-First/main/IMG_0455.png" width="100%" alt="BigHappySmiley"/>
+  <<img src="https://raw.githubusercontent.com/bighappysmiley/Welcome/main/IMG_0455.png" width="100%" alt="BigHappySmiley"/>
 </div>
 
 <div align="center">
@@ -13,7 +13,7 @@
 
 ---
 
-> ℹ️ This README contains important information about all repositories and resources maintained by this organization. Please read before getting started.
+> ℹ️ This file (· Welcome · .md) contains important information about all repositories and resources maintained by this organization. Please read before getting started.
 
 ---
 
@@ -23,18 +23,18 @@ This is where you'll find BigHappySmiley's open-source projects — free to down
 
 > **Can't find what you're looking for?**  
 > Not all of our products are open source. Check our official documentation for the full list:  
-> 🔗 [docs.bighappysmiley.com](https://docs.bighappysmiley.com)
+> 🔗 [View The Documentation](https://docs.bighappysmiley.com)
 
 ---
 
 ## 💡 Suggestions
 
 Have an idea or feedback? We'd love to hear from you.  
-🔗 [Submit a suggestion on Canny](https://bighappysmiley.canny.io)
+🔗 [Submit a suggestion](https://bighappysmiley.canny.io)
 
 ---
 
 ## ❤️ Support Us
 
 If you enjoy what we create, please consider donating to help us keep building.  
-🔗 [bighappysmiley.com/donate-to-us](https://bighappysmiley.com/donate-to-us)
+🔗 [Make a Donation](https://bighappysmiley.com/donate-to-us)
