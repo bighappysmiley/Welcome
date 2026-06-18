@@ -4,13 +4,11 @@
 
 <div align="center">
 
-[![Website](https://img.shields.io/badge/Website-bighappysmiley.com-0e2a5c?style=for-the-badge&logoColor=white)](https://bighappysmiley.com)
-[![Docs](https://img.shields.io/badge/Docs-docs.bighappysmiley.com-1a3a70?style=for-the-badge&logoColor=white)](https://docs.bighappysmiley.com)
-[![Suggestions](https://img.shields.io/badge/Suggest-Canny-4466aa?style=for-the-badge&logoColor=white)](https://bighappysmiley.canny.io)
-[![Donate](https://img.shields.io/badge/Donate-Support%20Us-ff6699?style=for-the-badge&logoColor=white)](https://bighappysmiley.com/donate-to-us)
+[![Website](https://img.shields.io/badge/Website-1e3a8a?style=for-the-badge&logo=googlechrome&logoColor=white)](https://bighappysmiley.com)
+[![Documentation](https://img.shields.io/badge/Documentation-1e3a8a?style=for-the-badge&logo=gitbook&logoColor=white)](https://docs.bighappysmiley.com)
+[![Donate](https://img.shields.io/badge/Support_Us-e11d48?style=for-the-badge&logo=heart&logoColor=white)](https://bighappysmiley.com/donate-to-us)
 
 </div>
-
 ---
 
 > ℹ️ This file (· Welcome · .md) contains important information about all repositories and resources maintained by this organization. Please read before getting started.
