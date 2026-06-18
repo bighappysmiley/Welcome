@@ -1,0 +1,151 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#020818"/>
+      <stop offset="50%" stop-color="#071a3e"/>
+      <stop offset="100%" stop-color="#0e2a5c"/>
+    </linearGradient>
+    <linearGradient id="aurora" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00ffaa" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00ccff" stop-opacity="0.18"/>
+      <stop offset="65%" stop-color="#8833ff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#ff44cc" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="mtn1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a3a70"/>
+      <stop offset="100%" stop-color="#06111f"/>
+    </linearGradient>
+    <linearGradient id="mtn2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e2347"/>
+      <stop offset="100%" stop-color="#040c1c"/>
+    </linearGradient>
+    <linearGradient id="mtn3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#061730"/>
+      <stop offset="100%" stop-color="#020810"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#cce8ff"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cce8ff"/>
+    </linearGradient>
+    <filter id="moonGlow">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="snowGlow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="900" height="300"/></clipPath>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="900" height="300" fill="url(#sky)"/>
+
+  <!-- Aurora borealis -->
+  <g clip-path="url(#clip)">
+    <path d="M-50,90 Q220,45 450,75 Q680,105 950,55" stroke="url(#aurora)" stroke-width="50" fill="none">
+      <animate attributeName="d" dur="9s" repeatCount="indefinite"
+        values="M-50,90 Q220,45 450,75 Q680,105 950,55;
+                M-50,75 Q220,100 450,58 Q680,38 950,88;
+                M-50,90 Q220,45 450,75 Q680,105 950,55"/>
+    </path>
+    <path d="M-50,110 Q180,65 420,95 Q660,125 950,80" stroke="#3366ff" stroke-width="30" fill="none" opacity="0.07">
+      <animate attributeName="d" dur="12s" repeatCount="indefinite"
+        values="M-50,110 Q180,65 420,95 Q660,125 950,80;
+                M-50,90 Q180,120 420,72 Q660,55 950,108;
+                M-50,110 Q180,65 420,95 Q660,125 950,80"/>
+    </path>
+  </g>
+
+  <!-- Moon -->
+  <circle cx="790" cy="58" r="30" fill="#fffce0" filter="url(#moonGlow)" opacity="0.85"/>
+  <circle cx="790" cy="58" r="26" fill="#fffce8"/>
+  <circle cx="782" cy="52" r="5" fill="#f0e6b0" opacity="0.45"/>
+  <circle cx="797" cy="66" r="3.5" fill="#f0e6b0" opacity="0.35"/>
+  <circle cx="779" cy="67" r="2.5" fill="#f0e6b0" opacity="0.3"/>
+
+  <!-- Stars row 1 -->
+  <circle cx="28" cy="14" r="1.3" fill="white" opacity="0.9"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="72" cy="7" r="0.9" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.4s" repeatCount="indefinite"/></circle>
+  <circle cx="118" cy="20" r="1.1" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="52" cy="38" r="0.7" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="4.2s" repeatCount="indefinite"/></circle>
+  <circle cx="168" cy="11" r="1.4" fill="#ccddff" opacity="0.85"><animate attributeName="opacity" values="0.85;0.3;0.85" dur="1.9s" repeatCount="indefinite"/></circle>
+  <circle cx="215" cy="28" r="0.9" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.6s" repeatCount="indefinite"/></circle>
+  <circle cx="258" cy="16" r="1.1" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle cx="300" cy="7" r="0.8" fill="white" opacity="0.65"><animate attributeName="opacity" values="0.65;0.2;0.65" dur="3.9s" repeatCount="indefinite"/></circle>
+  <circle cx="338" cy="23" r="1.0" fill="white" opacity="0.75"><animate attributeName="opacity" values="0.75;0.1;0.75" dur="3.0s" repeatCount="indefinite"/></circle>
+  <circle cx="375" cy="13" r="1.2" fill="#ddeeff" opacity="0.8"><animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.3s" repeatCount="indefinite"/></circle>
+  <circle cx="415" cy="21" r="0.8" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="458" cy="9" r="1.2" fill="white" opacity="0.85"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="2.7s" repeatCount="indefinite"/></circle>
+  <circle cx="498" cy="27" r="0.7" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="4.3s" repeatCount="indefinite"/></circle>
+  <circle cx="536" cy="14" r="1.0" fill="white" opacity="0.75"><animate attributeName="opacity" values="0.75;0.25;0.75" dur="2.0s" repeatCount="indefinite"/></circle>
+  <circle cx="575" cy="7" r="0.9" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.8;0.1;0.8" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="614" cy="19" r="1.3" fill="#cce8ff" opacity="0.7"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.9s" repeatCount="indefinite"/></circle>
+  <circle cx="655" cy="11" r="0.8" fill="white" opacity="0.85"><animate attributeName="opacity" values="0.85;0.2;0.85" dur="3.2s" repeatCount="indefinite"/></circle>
+  <circle cx="696" cy="29" r="1.1" fill="white" opacity="0.65"><animate attributeName="opacity" values="0.65;0.15;0.65" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="738" cy="17" r="0.7" fill="white" opacity="0.75"><animate attributeName="opacity" values="0.75;0.2;0.75" dur="4.0s" repeatCount="indefinite"/></circle>
+  <circle cx="848" cy="20" r="1.1" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="2.2s" repeatCount="indefinite"/></circle>
+  <circle cx="885" cy="9" r="1.3" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="3.3s" repeatCount="indefinite"/></circle>
+  <!-- Stars row 2 -->
+  <circle cx="14" cy="54" r="0.8" fill="white" opacity="0.65"><animate attributeName="opacity" values="0.65;0.2;0.65" dur="4.6s" repeatCount="indefinite"/></circle>
+  <circle cx="88" cy="46" r="1.0" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.8s" repeatCount="indefinite"/></circle>
+  <circle cx="143" cy="60" r="1.2" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.7s" repeatCount="indefinite"/></circle>
+  <circle cx="195" cy="53" r="0.7" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.3s" repeatCount="indefinite"/></circle>
+  <circle cx="272" cy="44" r="1.1" fill="#ddeeff" opacity="0.75"><animate attributeName="opacity" values="0.75;0.1;0.75" dur="3.9s" repeatCount="indefinite"/></circle>
+  <circle cx="352" cy="57" r="0.9" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="2.6s" repeatCount="indefinite"/></circle>
+  <circle cx="428" cy="45" r="1.0" fill="white" opacity="0.65"><animate attributeName="opacity" values="0.65;0.15;0.65" dur="4.2s" repeatCount="indefinite"/></circle>
+  <circle cx="504" cy="59" r="0.8" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.3s" repeatCount="indefinite"/></circle>
+  <circle cx="582" cy="48" r="1.2" fill="white" opacity="0.85"><animate attributeName="opacity" values="0.85;0.3;0.85" dur="2.1s" repeatCount="indefinite"/></circle>
+  <circle cx="664" cy="61" r="0.7" fill="white" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="3.8s" repeatCount="indefinite"/></circle>
+  <circle cx="725" cy="46" r="1.1" fill="white" opacity="0.75"><animate attributeName="opacity" values="0.75;0.2;0.75" dur="3.0s" repeatCount="indefinite"/></circle>
+  <circle cx="826" cy="53" r="0.9" fill="white" opacity="0.8"><animate attributeName="opacity" values="0.8;0.25;0.8" dur="4.5s" repeatCount="indefinite"/></circle>
+  <circle cx="874" cy="43" r="1.0" fill="white" opacity="0.7"><animate attributeName="opacity" values="0.7;0.15;0.7" dur="3.1s" repeatCount="indefinite"/></circle>
+
+  <!-- Layer 1: Distant mountains -->
+  <path d="M0,225 L55,148 L110,178 L175,108 L235,152 L295,88 L355,135 L415,75 L475,125 L535,90 L595,142 L655,100 L715,155 L772,115 L830,165 L900,125 L900,300 L0,300 Z"
+        fill="url(#mtn1)" opacity="0.55"/>
+  <!-- Snow caps layer 1 -->
+  <path d="M295,88 L310,110 L280,110 Z" fill="white" filter="url(#snowGlow)" opacity="0.45"/>
+  <path d="M415,75 L430,98 L400,98 Z" fill="white" filter="url(#snowGlow)" opacity="0.45"/>
+  <path d="M535,90 L548,112 L522,112 Z" fill="white" filter="url(#snowGlow)" opacity="0.4"/>
+
+  <!-- Layer 2: Mid mountains -->
+  <path d="M0,245 L75,165 L155,205 L235,138 L315,190 L395,120 L475,175 L555,130 L635,185 L715,148 L795,205 L865,160 L900,180 L900,300 L0,300 Z"
+        fill="url(#mtn2)" opacity="0.8"/>
+  <!-- Snow caps layer 2 -->
+  <path d="M235,138 L254,163 L216,163 Z" fill="white" filter="url(#snowGlow)" opacity="0.55"/>
+  <path d="M395,120 L415,147 L375,147 Z" fill="white" filter="url(#snowGlow)" opacity="0.55"/>
+  <path d="M555,130 L573,155 L537,155 Z" fill="white" filter="url(#snowGlow)" opacity="0.5"/>
+
+  <!-- Layer 3: Foreground mountains -->
+  <path d="M0,272 L95,205 L195,250 L295,190 L395,245 L495,180 L595,235 L695,205 L795,255 L900,215 L900,300 L0,300 Z"
+        fill="url(#mtn3)"/>
+  <!-- Snow caps layer 3 -->
+  <path d="M295,190 L316,218 L274,218 Z" fill="white" filter="url(#snowGlow)" opacity="0.6"/>
+  <path d="M495,180 L518,210 L472,210 Z" fill="white" filter="url(#snowGlow)" opacity="0.62"/>
+  <path d="M695,205 L713,230 L677,230 Z" fill="white" filter="url(#snowGlow)" opacity="0.55"/>
+
+  <!-- Main title -->
+  <text x="450" y="148" text-anchor="middle"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="56" font-weight="800"
+        fill="url(#textGrad)"
+        filter="url(#textGlow)"
+        letter-spacing="-1">BigHappySmiley</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="178" text-anchor="middle"
+        font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
+        font-size="13" font-weight="300"
+        fill="#88aadd"
+        letter-spacing="9">OFFICIAL GITHUB ORGANIZATION</text>
+
+  <!-- Decorative lines flanking subtitle -->
+  <line x1="170" y1="187" x2="360" y2="187" stroke="#3366aa" stroke-width="0.6" opacity="0.5"/>
+  <line x1="540" y1="187" x2="730" y2="187" stroke="#3366aa" stroke-width="0.6" opacity="0.5"/>
+</svg>
