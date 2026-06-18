@@ -1,7 +1,6 @@
 # Read-This-First
 Please read this repository's README for information about all repositories and resources created on this organization.
-—————————————————————————————————————————————————————————————————
-
+—————————————————————————————————————————————————————————————————<br>
  [1]()
 Welcome to BigHappySmiley's offical Github!
 Github is where you can find our open source projects for you to download and modify.
