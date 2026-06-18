@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner.png" width="100%" alt="BigHappySmiley"/>
+  <img src="https://raw.githubusercontent.com/bighappysmiley/Read-This-First/main/banner.png" width="100%" alt="BigHappySmiley"/>
 </div>
 
 <div align="center">
