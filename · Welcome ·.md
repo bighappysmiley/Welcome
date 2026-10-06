@@ -27,12 +27,12 @@ This is where you'll find BigHappySmiley's open-source projects — free to down
 
 ## 💡 Suggestions
 
-Have an idea or feedback? We'd love to hear from you.  
-🔗 [Submit a suggestion](https://bighappysmiley.canny.io)
+> Have an idea or feedback? We'd love to hear from you.  
+> 🔗 [Submit a suggestion](https://bighappysmiley.canny.io)
 
 ---
 
 ## ❤️ Support Us
 
-If you enjoy what we create, please consider donating to help us keep building.  
-🔗 [Make a Donation](https://bighappysmiley.com/donate-to-us)
+> If you enjoy what we create, please consider donating to help us keep building.  
+> 🔗 [Make a Donation](https://bighappysmiley.com/donate-to-us)
