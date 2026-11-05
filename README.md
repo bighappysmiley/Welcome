@@ -11,7 +11,7 @@
 </div>
 ---
 
-> ℹ️ This file (· Welcome · .md) contains important information about all repositories and resources maintained by this organization. Please read before getting started.
+> ℹ️ This file (README.md) contains important information about all repositories and resources maintained by this organization. Please read before getting started.
 
 ---
 
@@ -21,14 +21,14 @@ This is where you'll find BigHappySmiley's open-source projects — free to down
 
 > **Can't find what you're looking for?**  
 > Not all of our products are open source. Check our official documentation for the full list:  
-> 🔗 [View The Documentation](https://docs.bighappysmiley.com)
+> 🔗 [View The Documentation](https://subdomain.bhswebsite.org/whatsopensource)
 
 ---
 
 ## 💡 Suggestions
 
 > Have an idea or feedback? We'd love to hear from you.  
-> 🔗 [Submit a suggestion](https://bighappysmiley.canny.io)
+> 🔗 [Submit a suggestion](https://community.bighappysmiley.com/suggestions)
 
 ---
 
