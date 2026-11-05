@@ -21,7 +21,7 @@ This is where you'll find BigHappySmiley's open-source projects — free to down
 
 > **Can't find what you're looking for?**  
 > Not all of our products are open source. Check our official documentation for the full list:  
-> 🔗 [View The Documentation](https://subdomain.bhswebsite.org/whatsopensource)
+> 🔗 [What's Open Source | Post](https://subdomain.bhswebsite.org/whatsopensource)
 
 ---
 
